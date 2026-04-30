@@ -1,7 +1,6 @@
 import streamlit as st
-from retriever import build_retriever, retrieve
-from rag_pipeline import generate_answer, expand_query
-
+from backend.retriever import build_retriever, retrieve
+from backend.rag_pipeline import generate_answer, expand_query
 
 st.set_page_config(page_title="Legal RAG System", layout="wide")
 
